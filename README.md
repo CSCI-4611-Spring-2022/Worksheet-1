@@ -51,7 +51,12 @@ One situation where you are likely to encounter arrow functions is when iteratin
 ```
 var array = [1, 3, 5, 6, 8, 3];
 
-// add your code here
+// Add your code here
+var arrow = (array_element: number) => {
+    console.log(array_element)
+}
+
+array.forEach(arrow);
 ```
 
 You can quickly try out your code in a web browser using the [TypeScript Playground](https://www.typescriptlang.org/play/).  Note that you will you will need to open your web browser's developer console to see the output, which is typically activated using the F12 hotkey.
