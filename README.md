@@ -52,6 +52,12 @@ One situation where you are likely to encounter arrow functions is when iteratin
 var array = [1, 3, 5, 6, 8, 3];
 
 // add your code here
+
+for(var i = 0; i < array.length; i++){
+    var result = (i: number) => {
+        console.log(array.forEach(result));
+    }
+}
 ```
 
 You can quickly try out your code in a web browser using the [TypeScript Playground](https://www.typescriptlang.org/play/).  Note that you will you will need to open your web browser's developer console to see the output, which is typically activated using the F12 hotkey.
@@ -81,19 +87,19 @@ childNode.position = new paper.Point(3, 4);
 
 parentNode.translate(new paper.Point(2, 5));
 
-// child node position: add your answer here
+// child node position: 5,9
 
 parentNode.rotate(90);  // rotation is clockwise, in degrees
 
-// child node position: add your answer here
+// child node position: 0, 9
 
 parentNode.scale(10);
 
-// child node position: add your answer here
+// child node position: 10,9 
 
 parentNode.translate(new paper.Point(-2, -5));
 
-// child node position: add your answer here
+// child node position: 8,4
 ```
 
 
